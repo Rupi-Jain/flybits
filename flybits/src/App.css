@@ -1,0 +1,22 @@
+.App {
+  text-align: center;
+  background-color: hsl(0, 0%, 100%) 65%;
+}
+
+.home {
+  display: flex;
+  height: 60vh;
+  background-color: hsl(0, 0%, 100%);
+  background: linear-gradient(
+    to right bottom,
+    hsl(0, 0%, 100%) 65%,
+    #fcdfd0 120%
+  );
+  margin-top: 8em;
+  flex-direction: column;
+}
+
+.btns {
+  flex-direction: column;
+  margin-top: 6em;
+}
