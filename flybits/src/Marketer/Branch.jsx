@@ -22,7 +22,7 @@ export default function Branch () {
         </div>
         <div >
           <div style={{ width: '550px', height: '600px', marginLeft: '1.5em'}}>
-            <Map></Map>
+            <Map width='500px' height='600px'></Map>
           </div>
         </div>
       </div>

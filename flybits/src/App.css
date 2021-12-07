@@ -1,22 +1,30 @@
 .App {
-  text-align: center;
+  /* text-align: center; */
   background-color: hsl(0, 0%, 100%) 65%;
 }
 
 .home {
   display: flex;
-  height: 60vh;
+  height: 100vh;
   background-color: hsl(0, 0%, 100%);
   background: linear-gradient(
     to right bottom,
     hsl(0, 0%, 100%) 65%,
     #fcdfd0 120%
   );
-  margin-top: 8em;
+  margin-top: 2em;
   flex-direction: column;
+  justify-content: center;
 }
 
 .btns {
   flex-direction: column;
   margin-top: 6em;
+}
+
+.main {
+  padding: 1em;
+  padding-top: 4em;
+  border: 0.1rem outset pink;
+  height: 400px;
 }

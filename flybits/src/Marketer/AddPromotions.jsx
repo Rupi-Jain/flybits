@@ -1,5 +1,5 @@
 
-const Promotions = () => {
+const AddPromotions = () => {
 
   const [branches, setBranches] = useState(null)
   const handleSubmit = () => {
@@ -38,4 +38,4 @@ const Promotions = () => {
 
 }
 
-export default Zones
+export default AddPromotions

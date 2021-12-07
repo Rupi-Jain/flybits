@@ -5,6 +5,9 @@ import Zones from "./Marketer/Zones";
 import Home from './Home'
 import NewZone from "./Marketer/NewZone";
 import {branchAddress, zones} from './helpers/data';
+import MarketerHome from "./Marketer/MarketerHome";
+import Promotions from "./Promotions"
+
 import {
   BrowserRouter as Router,
   Routes,
@@ -27,9 +30,12 @@ const App = () => {
       <Router>
         <Routes>
           <Route path="/" element={<Home/>} />
-          <Route path="/branch" element={<Branch/>} />
-          <Route path="/zones" element={<Zones/>} />
-          <Route path="/newzone" element={<NewZone/>} />
+          <Route path="/home/promotions" element={<Promotions/>} />
+          <Route path="/admin" element={<MarketerHome/>} />
+          <Route path="/admin/branch" exact element={<Branch/>} />
+          <Route path="/admin/zones" exact element={<Zones/>} />
+          <Route path="/admin/newzone" exact element={<NewZone/>} />
+  
         </Routes>
       </Router>
     </div>

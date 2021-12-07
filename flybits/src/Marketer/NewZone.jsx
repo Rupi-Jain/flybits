@@ -62,7 +62,7 @@ const NewZone = () => {
     <div style={{marginTop: '3em'}}>
       <h1>Zones</h1>
     </div>
-    <div style={{}}></div>
+    
     <div className="row g-2 zone">
       <form  className="col-md-7 zone-main" onSubmit={handleSubmit}>
           <div >
@@ -91,7 +91,7 @@ const NewZone = () => {
         </div>
       </form>
       <div class="col-md-3">
-        <Map></Map>
+        <Map width='500px' height='600px'></Map>
       </div>
       </div>
     

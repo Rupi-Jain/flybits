@@ -80,7 +80,8 @@ const branchAddress = [
   },
   {
     location: {lat: 45.2846744, lng: -75.9103236},
-    address: `5679 Hazeldean Rd, Stittsville, ON K2S 0P6, Canada`
+    address: `5679 Hazeldean Rd, Stittsville, ON K2S 0P6, Canada`,
+    Zone: ''
   },
   {
     location: {lat: 45.3624071, lng: -75.7899845},
@@ -89,7 +90,8 @@ const branchAddress = [
   },
   {
      location: {lat: 45.3539349, lng: -75.9319328},
-    address: `1106 Klondike Rd, Kanata, ON K2K 0G1, Canada`
+    address: `1106 Klondike Rd, Kanata, ON K2K 0G1, Canada`,
+    zone: ''
   }
   
 ]
